@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Clínica Estética Masculina</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="header_principal.jpg" alt="Header Principal">
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="sobre.html">Sobre a Clínica</a></li>
+            <li><a href="atendimento.html">Horário de Atendimento</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content -->
+    <!-- Mesmo cabeçalho e menu da página principal -->
+<!-- ... -->
+
+<!-- Content específico para a página Contato -->
+<section id="content">
+    <h1>Entre em Contato</h1>
+    <p>Informações de contato...</p>
+
+    <!-- Formulário de Contato -->
+    <form action="enviar.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</section>
+
+<!-- Mesmo rodapé da página principal -->
+<!-- ... -->
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Clínica Estética Masculina. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
